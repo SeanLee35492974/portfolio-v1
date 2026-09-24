@@ -1,0 +1,111 @@
+/* Case 03 layout. Color, type families, header and footer inherit from styles.css. */
+.cangzhao-case{background:var(--paper);overflow-x:hidden}
+.cangzhao-case .topbar{background:var(--paper)}
+.cangzhao-case :is(h1,h2,h3){overflow-wrap:break-word}
+.cangzhao-case figure{margin:0;min-width:0}
+.cangzhao-case figure img{display:block;width:100%;height:auto}
+.cangzhao-case figure figcaption{padding:10px 1px 0;color:var(--blue);font-size:11px;font-weight:700;line-height:1.5}
+.cz-hero{padding:85px 0 90px;background:linear-gradient(137deg,var(--paper) 22%,#f6fafe 72%,#e9f3fd 100%)}
+.cz-hero-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:clamp(32px,5vw,75px)}
+.cz-hero-grid>*{min-width:0}
+.cz-hero h1{margin:22px 0 20px;font:800 clamp(42px,4.5vw,68px)/1.13 var(--display);letter-spacing:-.075em}
+.cz-hero h1 em{color:var(--blue);font-style:normal}
+.cz-hero-copy>.cz-hero-deck{margin:0 0 18px;color:var(--ink);font-size:20px;font-weight:700;line-height:1.55}
+.cz-hero-copy>p:not(.cz-hero-deck){max-width:550px;color:var(--ink-soft);font-size:15px;line-height:1.9}
+.cz-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.cz-tags span{padding:6px 11px;border:1px solid #9fbfe0;border-radius:999px;color:var(--blue);font:700 10px/1.4 var(--latin);letter-spacing:.04em}
+.cz-hero-image{position:relative;padding:10px 10px 38px;border:1px solid #c3d7eb;background:#fff;box-shadow:0 19px 38px rgba(45,96,144,.09)}
+.cz-hero-image img{aspect-ratio:1.45;object-fit:cover}
+.cz-hero-image figcaption{display:flex;justify-content:space-between;gap:10px}
+.cz-index{border-top:1px solid #c7daeb;border-bottom:1px solid #c7daeb}
+.cz-index .shell{display:flex;gap:25px;overflow-x:auto;scrollbar-width:thin}
+.cz-index a{flex:none;padding:18px 0;color:var(--blue);font:800 10px var(--latin);letter-spacing:.075em;white-space:nowrap}
+.cz-index a:hover,.cz-index a:focus-visible{color:var(--ink);text-decoration:underline;text-underline-offset:5px}
+.cz-section{padding:108px 0;border-top:1px solid rgba(217,225,232,.7)}
+.cz-section h2{max-width:760px;margin:14px 0 0;font-size:clamp(36px,4.4vw,58px);line-height:1.17;letter-spacing:-.075em;text-wrap:pretty}
+.cz-section p{color:var(--ink-soft);font-size:15px;line-height:1.9}
+.cz-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.84fr);gap:65px;align-items:end;margin-bottom:45px}
+.cz-heading>*{min-width:0}
+.cz-heading>p{max-width:530px;margin:0}
+.cz-field-gallery{display:grid;grid-template-columns:minmax(0,1.28fr) minmax(0,.72fr);gap:20px;align-items:end}
+.cz-field-gallery img{width:100%;height:370px;object-fit:cover}
+.cz-field-gallery figure:nth-child(2) img{height:283px}
+.cz-milestone{background:#f5faff}
+.cz-milestone-feature{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:32px;align-items:center;padding-top:25px;border-top:2px solid var(--ink)}
+.cz-milestone-data{display:flex;flex-direction:column;align-items:flex-start;gap:15px;min-width:0}
+.cz-milestone-data strong{color:var(--blue);font:800 clamp(78px,10vw,150px)/.88 var(--latin-display);letter-spacing:-.09em;white-space:nowrap}
+.cz-milestone-data strong span{margin-left:10px;font-size:.27em;letter-spacing:0}
+.cz-milestone-data>span{font-size:14px;font-weight:700}
+.cz-milestone-data a,.cz-link{display:inline-block;border-bottom:1px solid var(--blue);padding-bottom:4px;color:var(--blue);font-size:14px;font-weight:700;line-height:1.5}
+.cz-milestone-images{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:14px;align-items:end;min-width:0}
+.cz-milestone-images figure img{height:315px;object-fit:cover}
+.cz-milestone-images figure:nth-child(2) img{height:230px}
+.cz-output-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:38px;align-items:center;margin-top:40px}
+.cz-booklet{padding:10px 10px 14px;border:1px solid #c3d7eb;background:#fff;box-shadow:0 13px 28px rgba(45,96,144,.07)}
+.cz-booklet img{aspect-ratio:auto}
+.cz-script{min-width:0;border-top:2px solid var(--ink);padding-top:20px}
+.cz-script-head>span{font:800 10px var(--latin);letter-spacing:.13em;color:var(--blue)}
+.cz-script h3{margin:18px 0 12px;font-size:clamp(27px,3vw,39px);line-height:1.22;letter-spacing:-.05em}
+.cz-script p{margin:0 0 22px;font-size:14px}
+.cz-script ol{padding:0;margin:0 0 25px;list-style:none;border-top:1px solid #b8d2e7}
+.cz-script li{display:flex;gap:15px;padding:13px 0;border-bottom:1px solid #b8d2e7;font-size:13px;font-weight:700}
+.cz-script li b{color:var(--blue);font:800 12px var(--latin)}
+.cz-film-still img{aspect-ratio:1.86;object-fit:cover}
+.cz-people{background:#f5faff}
+.cz-people-grid,.cz-split{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:70px;align-items:center}
+.cz-people-grid>*,.cz-split>*{min-width:0}
+.cz-people-grid p{max-width:470px;margin:20px 0 25px}
+.cz-people-photos{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:end}
+.cz-people-photos figure:first-child{grid-column:1/-1}
+.cz-people-photos figure img{height:175px;object-fit:cover}
+.cz-people-photos figure:first-child img{height:275px}
+.cz-media-grid{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:50px;align-items:start}
+.cz-media-print{padding:10px 10px 15px;border:1px solid #c3d7eb;background:#fff;box-shadow:0 13px 28px rgba(45,96,144,.07)}
+.cz-media-print img{max-height:490px;object-fit:contain;object-position:top}
+.cz-media-side{align-self:stretch;display:flex;flex-direction:column;justify-content:space-between;gap:30px}
+.cz-media-entry{border-top:1px solid #afcce5;padding-top:20px}
+.cz-media-entry span{color:var(--blue);font:800 10px var(--latin);letter-spacing:.08em}
+.cz-media-entry h3{margin:16px 0 8px;font-size:clamp(24px,2.5vw,36px);line-height:1.28;letter-spacing:-.05em}
+.cz-media-entry p{max-width:430px;margin:12px 0 0;font-size:14px}
+.cz-media-side .cz-link{margin-top:16px}
+.cz-reflection .cz-split{align-items:start}
+.cz-reflection .cz-split p{margin:0 0 26px;font-size:16px}
+.cz-reflection blockquote{margin:0;padding-left:19px;border-left:2px solid var(--blue);font-size:21px;font-weight:700;line-height:1.65}
+.cz-info{background:#f5faff}
+.cz-info .cz-split{align-items:start}
+.cz-role-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #a9c4df;border-bottom:1px solid #a9c4df}
+.cz-role-list span{padding:14px 6px 14px 0;border-bottom:1px solid #d0e1ee;color:var(--blue);font-size:12px;font-weight:700}
+.cz-role-list span:nth-last-child(-n+3){border:0}
+.cz-info dl{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:29px 0 0}
+.cz-info dt{color:var(--muted);font:800 10px var(--latin);letter-spacing:.09em}
+.cz-info dd{margin:6px 0 0;color:var(--ink);font-size:13px;font-weight:700}
+@media(max-width:900px){
+ .cz-hero-grid,.cz-heading,.cz-people-grid,.cz-split{grid-template-columns:1fr;gap:28px}
+ .cz-hero-image{max-width:750px}
+ .cz-milestone-feature{gap:22px}
+ .cz-output-grid,.cz-media-grid{gap:22px}
+}
+@media(max-width:600px){
+ .cz-hero{padding:48px 0 64px}
+ .cz-hero h1{font-size:clamp(36px,9vw,48px)}
+ .cz-hero-copy>.cz-hero-deck{font-size:17px}
+ .cz-hero-copy>p:not(.cz-hero-deck){font-size:14px}
+ .cz-section{padding:73px 0}
+ .cz-section h2{font-size:clamp(32px,8.5vw,40px)}
+ .cz-heading{margin-bottom:30px}
+ .cz-heading>p{font-size:14px}
+ .cz-field-gallery{grid-template-columns:1fr 1fr;gap:11px}
+ .cz-field-gallery img,.cz-field-gallery figure:nth-child(2) img{height:185px}
+ .cz-milestone-feature{grid-template-columns:1fr;gap:22px}
+ .cz-milestone-data strong{font-size:clamp(85px,18vw,130px)}
+ .cz-milestone-images{grid-template-columns:1.15fr .85fr;gap:10px}
+ .cz-milestone-images figure img,.cz-milestone-images figure:nth-child(2) img{height:170px;object-fit:cover}
+ .cz-output-grid,.cz-media-grid{grid-template-columns:1fr;gap:30px}
+ .cz-people-photos figure:first-child img{height:205px}
+ .cz-people-photos figure img{height:140px}
+ .cz-media-print img{max-height:385px}
+ .cz-reflection .cz-split p{font-size:15px}
+ .cz-role-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .cz-role-list span:nth-last-child(-n+3){border-bottom:1px solid #d0e1ee}
+ .cz-role-list span:nth-last-child(-n+2){border-bottom:0}
+}

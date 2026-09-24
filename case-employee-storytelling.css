@@ -1,0 +1,71 @@
+/* Work 04 uses the existing people case language and site tokens. */
+.storytelling-v4 .people-v3-hero-copy h1{font-family:var(--display);font-size:clamp(42px,4.8vw,68px);letter-spacing:-.075em;line-height:1.16}
+.storytelling-v4 .people-v3-cn-title{max-width:560px;margin:0 0 22px;font-size:clamp(19px,2vw,25px);line-height:1.45;letter-spacing:-.055em}
+.storytelling-v4 .people-v3-hero-copy p{font-size:15px;line-height:1.85}
+.storytelling-v4 .people-v3-tags{margin:24px 0 0}
+.storytelling-v4 .people-v3-hero-collage{min-width:0}
+.storytelling-v4 .people-v3-section{padding:98px 0}
+.storytelling-v4 .people-v3-section h2{font-size:clamp(34px,4.2vw,58px);line-height:1.2;letter-spacing:-.075em}
+.storytelling-v4 .people-v3-two-col{grid-template-columns:minmax(0,.84fr) minmax(0,1.16fr);gap:clamp(35px,5vw,82px)}
+.storytelling-index{border-top:1px solid #c7daeb;border-bottom:1px solid #c7daeb;background:var(--paper)}
+.storytelling-index .shell{display:flex;gap:25px;overflow-x:auto;scrollbar-width:thin}
+.storytelling-index a{flex:none;padding:18px 0;color:var(--people-blue);font:800 10px var(--latin);letter-spacing:.075em;white-space:nowrap}
+.storytelling-index a:hover,.storytelling-index a:focus-visible{color:var(--ink);text-decoration:underline;text-underline-offset:5px}
+.storytelling-v4 .challenge-copy{min-height:0;padding-top:14px}
+.storytelling-v4 .challenge-copy blockquote,.storytelling-v4 .reflection-copy blockquote{font-family:var(--sans);font-size:21px;font-weight:700;letter-spacing:-.04em}
+.storytelling-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.83fr);gap:clamp(30px,5vw,85px);align-items:end}
+.storytelling-heading>*{min-width:0}
+.storytelling-heading>p{max-width:510px;margin:0;color:var(--ink-soft);font-size:15px;line-height:1.9}
+.storytelling-v4 .approach-section h2{font-family:var(--display)}
+.storytelling-v4 .approach-path{margin-top:39px}
+.storytelling-v4 .approach-path>div{padding:22px 18px}
+.storytelling-v4 .approach-path span{font-weight:700}
+.storytelling-v4 .approach-note{line-height:1.8}
+.storytelling-v4 .stories-section{padding-bottom:104px}
+.storytelling-section-intro{margin:22px 0 0;color:var(--ink-soft);font-size:15px;line-height:1.8}
+.storytelling-v4 .story-feature,.storytelling-v4 .story-he{grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);gap:clamp(24px,4vw,58px);margin-top:57px;padding:40px 0 0;border:0;border-top:1px solid #bad1e5;border-radius:0;background:transparent;overflow:visible}
+.storytelling-v4 .story-feature+.story-feature{margin-top:54px}
+.storytelling-v4 .story-he{grid-template-columns:minmax(0,1.14fr) minmax(0,.86fr)}
+.storytelling-v4 .story-feature h3{font-size:clamp(33px,3.5vw,49px);line-height:1.18}
+.storytelling-v4 .story-feature p{font-size:15px;line-height:1.85}
+.storytelling-v4 .story-feature .story-judgment{font-size:16px}
+.storytelling-v4 .story-feature-media{align-items:center}
+.storytelling-v4 .story-main-image{max-height:460px}
+.storytelling-v4 .story-support-grid{padding-top:0}
+.storytelling-v4 .story-cover-strip img{height:110px}
+.storytelling-v4 .storytelling-covers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin-top:44px}
+.storytelling-covers figure{min-width:0;margin:0;padding:7px;border:1px solid #c9dbea;background:#fff}
+.storytelling-covers img{display:block;width:100%;height:auto}
+.storytelling-covers figcaption{padding:9px 5px 3px;color:var(--people-blue);font-size:11px;font-weight:700}
+.storytelling-v4 .published-grid{margin-top:38px}
+.storytelling-v4 .published-window{border-radius:4px}
+.storytelling-v4 .published-section{background:#f5faff}
+.storytelling-v4 .reflection-section{background:var(--paper)}
+.storytelling-v4 .reflection-copy{padding-top:5px}
+.storytelling-v4 .reflection-copy p{font-size:15px}
+.storytelling-v4 .role-v3-list span{color:var(--people-blue);font:700 13px/1.5 var(--sans);letter-spacing:0}
+.storytelling-info{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0 0}
+.storytelling-info dt{color:var(--muted);font:800 10px var(--latin);letter-spacing:.08em}
+.storytelling-info dd{margin:6px 0 0;color:var(--ink);font-size:13px;font-weight:700}
+@media(max-width:920px){
+ .storytelling-heading{grid-template-columns:1fr;gap:14px}
+ .storytelling-v4 .people-v3-two-col{grid-template-columns:1fr;gap:28px}
+ .storytelling-v4 .story-feature,.storytelling-v4 .story-he{grid-template-columns:1fr;gap:25px}
+ .storytelling-v4 .story-he .story-feature-text{order:1}
+ .storytelling-v4 .story-he .story-feature-media{order:2}
+}
+@media(max-width:600px){
+ .storytelling-v4 .people-v3-hero-copy h1{font-size:clamp(37px,9vw,49px)}
+ .storytelling-v4 .people-v3-cn-title{font-size:18px}
+ .storytelling-v4 .people-v3-hero-copy p{font-size:14px}
+ .storytelling-v4 .people-v3-section{padding:73px 0}
+ .storytelling-v4 .people-v3-section h2{font-size:clamp(32px,8vw,40px)}
+ .storytelling-v4 .challenge-copy blockquote,.storytelling-v4 .reflection-copy blockquote{font-size:17px}
+ .storytelling-v4 .approach-path>div{padding:14px 10px}
+ .storytelling-v4 .story-feature,.storytelling-v4 .story-he{margin-top:36px;padding-top:24px}
+ .storytelling-v4 .story-feature+.story-feature{margin-top:36px}
+ .storytelling-v4 .story-feature h3{font-size:clamp(31px,8vw,39px)}
+ .storytelling-v4 .story-feature p,.storytelling-v4 .story-feature .story-judgment{font-size:14px}
+ .storytelling-v4 .storytelling-covers{grid-template-columns:1fr;gap:15px;margin-top:30px}
+ .storytelling-v4 .published-grid{margin-top:26px}
+}
